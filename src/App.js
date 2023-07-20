@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+import logo from "./img/logok.png";
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" title = "logo do canal" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        FUTEBA
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+        VEJA AQUI AO VIVO E PRIMEIRO!!
+        </p>
       </header>
+      <div>
+          <div className = "BR">
+            <p>
+            Campeonato Brasileiro Serie A de 2023:
+            </p>
+              
+
+            <div className = "topicos">
+              <button className="rodada">
+              <p>
+              Proxima rodada
+              </p> 
+              </button>
+            </div>
+            <button className="tabela">
+              <p>
+              Tabela atualizada de classificação
+              </p> 
+              </button>
+              <button className="gols">
+              <p>
+              Gols
+              </p> 
+              </button>
+          </div>
+        </div>
     </div>
   );
 }
